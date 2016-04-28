@@ -1,0 +1,38 @@
+.list-image img {
+	height: 100px;
+	width: 100px;
+}
+
+#list-top li {
+	display: inline-block;
+	float: left;
+}
+
+#list-top:after {
+	display: table;
+	content: '';
+	clear: both;
+}
+
+#list-left {
+	float: left;
+
+}
+
+#list-left-bottom {
+	position: absolute;
+	right: 0;
+	bottom: -200px;
+}
+
+#display-container {
+	border: blue;
+	border-width: 10px;
+	float: left;
+	position: relative;
+}
+
+#display {
+	height: 300px;
+	width: 300px;
+}
