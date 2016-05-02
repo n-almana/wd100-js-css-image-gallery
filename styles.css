@@ -1,11 +1,25 @@
+
+ul {
+  list-style: none;
+}
+
 .list-image img {
 	height: 100px;
 	width: 100px;
 }
 
+.list-image {
+	height: 100px;
+	width: 100px;
+	cursor: pointer;
+}
+
+.list-image:hover {
+	outline: 1px solid purple;
+}
+
 #list-top li {
 	display: inline-block;
-	float: left;
 }
 
 #list-top:after {
@@ -19,20 +33,23 @@
 
 }
 
+#display-container {
+	border: 1px solid blue;
+	float: left;
+	position: relative;
+	height: 500px;
+	width: 500px;
+}
+
+#display {
+	height: 500px;
+	width: 500px;
+}
+
+
 #list-left-bottom {
 	position: absolute;
 	right: 0;
 	bottom: -200px;
-}
-
-#display-container {
-	border: blue;
-	border-width: 10px;
-	float: left;
-	position: relative;
-}
-
-#display {
-	height: 300px;
-	width: 300px;
+	margin: 0;
 }
